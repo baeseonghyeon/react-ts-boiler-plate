@@ -7,7 +7,7 @@ const cn = cb.bind(styles);
 const Home: React.FC = () => {
     return (
         <div className={cn('example')}>
-            <div>Home</div>
+            <div>Home Page</div>
         </div>
     );
 };

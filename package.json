@@ -15,8 +15,11 @@
         "@types/react-dom": "^18.0.5",
         "axios": "^0.27.2",
         "classnames": "^2.3.1",
+        "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.2.1",
         "include-media": "^1.4.10",
+        "mobx": "^6.6.2",
+        "mobx-react": "^7.5.3",
         "moment": "^2.29.3",
         "node-sass": "^7.0.1",
         "react": "^18.1.0",
@@ -33,6 +36,12 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
     },
     "browserslist": {
         "production": [
